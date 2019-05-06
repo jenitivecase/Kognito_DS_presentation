@@ -16,13 +16,13 @@
  *    - remarkjs wiki: https://github.com/gnab/remark/wiki
  *
  * ------------------------------------------------------- */
-@import url(https://fonts.googleapis.com/css?family=erriweather:300,300i);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,300i);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:600);
 @import url(https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css);
 
 
 body {
-  font-family: erriweather, 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif;
+  font-family: Merriweather, 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif;
   font-weight: 300;
   color: #FEFDFC;
 }
