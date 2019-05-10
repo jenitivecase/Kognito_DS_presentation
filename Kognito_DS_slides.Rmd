@@ -1,5 +1,5 @@
 ---
-title: "Key Data-Driven Questions" 
+title: "Key Data Science Questions" 
 author: "Jennifer Brussow"
 date: '`r Sys.Date()`'
 output:
@@ -10,6 +10,7 @@ output:
       highlightStyle: duo
       highlightLines: true
       countIncrementalSlides: false
+      beforeInit: "macros.js"
     seal: false
 ---
 
@@ -32,14 +33,14 @@ duo(
 
 ```
 
-background-image: url(https://raw.githubusercontent.com/jenitivecase/Kognito_DS_presentation/master/Klogo.png)
+background-image: url(/Klogo.png)
 background-size: 200px
 background-position: top 100px center
 
 class: center, middle
 
 
-#Key Data-Driven Questions
+#Key Data Science Questions
 
 .large[
 Jennifer Brussow | May 2019
@@ -54,6 +55,7 @@ Jennifer Brussow | May 2019
 
 
 ???
+Since there's no DS team at Kognito, I thought it'd be best to start with some key questions/directions
 
 
 ---
@@ -63,6 +65,9 @@ class: inverse, center, middle
 
 # **A multitude of data points...**
 
+???
+- Lots of data is created as users interact with Kognito sims
+- Lots of possibility for data-driven development
 
 ---
 background-image: url(./data_bkg.png)
@@ -70,6 +75,9 @@ background-image: url(./data_bkg.png)
 class: center, middle
 
 # **How can data drive revenue?**
+
+???
+- The big business question that drives DS work:
 
 ---
 
@@ -83,6 +91,12 @@ class: inverse, left, middle
 * Productize user score data
 ]
 
+???
+Three main ways that I can see for data to drive revenue:
+- Using data to improve marketing by tailoring existing materials and targeting marketing to audiences
+- Key insights can help suggest improvements to user retention and UX
+- Finally, productizing score data can open new revenue streams
+
 ---
 
 # Plan to get there:
@@ -92,6 +106,10 @@ Step 1. What do we have?
 
 Step 2. How are people using our products?
 ]
+
+???
+These are enticing opportunities, but work has to be done to get us there. I think there are two main steps to move toward the revenue drivers on the previous slide, and each of these has more granular steps and milestones along the way.
+
 ---
 
 # What do we have?
@@ -116,6 +134,16 @@ Step 2. How are people using our products?
   + What validity research could be conducted to support sims' use?
 ]
 
+???
+So let's look at the first big question: What do we have?
+- First stage of work will be discovery to answer these questions
+- Hopefully the IT department will be able to help out with the first couple questions. 
+  - I already know about the types of data that are sent to ATI as users go through the simulation: node selections, score values, etc. 
+  - I'm guessing there are other variables to use, as well: demographics, user behavioral data, etc.
+- Is there a database architecture? A pipeline?
+- Already starting to talk with IDs about scoring schema used across sims - would be great to have documentation on this and establish a consistent framework and/or set of decision rules
+- Also related to scoring, there are lots of possibilities for validity research that could be conducted to support sims' use and examine user outcomes.
+
 ---
 
 # How are people using it?
@@ -129,6 +157,11 @@ Step 2. How are people using our products?
 
   + Frequency of sim use
 ]
+
+???
+The next question is even more complicated. I think there are several ways to look at how people are using our products. 
+
+Usage stats are an easy way to get some basic information on the user population. Some examples of things we could look at:
 
 ---
 
@@ -144,6 +177,9 @@ Step 2. How are people using our products?
   + Nodes selected
 ]
 
+???
+Score distributions would be another quick win to see how simulations are performing. Some examples of data points that could be easily aggregated:
+
 ---
 
 # How are people using it?
@@ -157,6 +193,8 @@ Step 2. How are people using our products?
   + Other interactive features
 ]
 
+???
+And finally, the use of key features within sims could provide more granular information on what users find useful. For example:
 
 ---
 
@@ -180,6 +218,14 @@ class: inverse
 - Predictive modeling to support targeting
 ]
 
+???
+So how do those steps relate back to the three main ways I identified to use data to drive revenue?
+
+First, let's look at how marketing could be improved: 
+  - Validity research can support new marketing claims about product quality
+  - Information about how features are used can support claims about their usefulness
+  - A bit more advanced - predictive modeling based on user demographics could support targeted marketing to subgroups
+
 ---
 
 class: inverse
@@ -201,6 +247,12 @@ class: inverse
 .xlarge[
 - Predictive modeling for user retention
 ]
+
+???
+The second main point was about user retention and UX. 
+  - Information about how features are used can drive decisions about what to emphasize in UX
+  - We can also do A/B testing to try out new UX features and make data-driven choices about updates
+  - I can also see a use case where we could design an algorithm to make smart recommendations to users about what to do next, driving user retention.
 
 ---
 
@@ -224,6 +276,12 @@ class: inverse
 - Predictive modeling to predict future success
 ]
 
+???
+Finally, the last big way to derive value from data science would be to productize user score data. 
+  - Analytics dashboards could help clients understand their use across sims and roll up their scores
+  - Outcomes research could drive validity claims, which would then lead to 
+  - Predictive modeling - if we can define what future success looks like for clients, we can develop algorithms to predict their likelihood of attaining that success. 
+
 ---
 
 class: center, middle
@@ -236,4 +294,11 @@ background-image: url(./data_bkg.png)
 .small[
 Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
 ]
+
+&nbsp;
+
+.center[![:scale 25%](/Klogo.png)]
+
+???
+That's all I've got for today!
 
