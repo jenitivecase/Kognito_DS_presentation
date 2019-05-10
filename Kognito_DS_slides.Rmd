@@ -114,6 +114,16 @@ These are enticing opportunities, but work has to be done to get us there. I thi
 
 # What do we have?
 
+???
+So let's look at the first big question: What do we have?
+- First stage of work will be discovery to answer these questions
+- Hopefully the IT department will be able to help out with the first couple questions. 
+  - I already know about the types of data that are sent to ATI as users go through the simulation: node selections, score values, etc. 
+  - I'm guessing there are other variables to use, as well: demographics, user behavioral data, etc.
+- Is there a database architecture? A pipeline?
+- Already starting to talk with IDs about scoring schema used across sims - would be great to have documentation on this and establish a consistent framework and/or set of decision rules
+- Also related to scoring, there are lots of possibilities for validity research that could be conducted to support sims' use and examine user outcomes.
+
 --
 
 .xlarge[
@@ -134,15 +144,7 @@ These are enticing opportunities, but work has to be done to get us there. I thi
   + What validity research could be conducted to support sims' use?
 ]
 
-???
-So let's look at the first big question: What do we have?
-- First stage of work will be discovery to answer these questions
-- Hopefully the IT department will be able to help out with the first couple questions. 
-  - I already know about the types of data that are sent to ATI as users go through the simulation: node selections, score values, etc. 
-  - I'm guessing there are other variables to use, as well: demographics, user behavioral data, etc.
-- Is there a database architecture? A pipeline?
-- Already starting to talk with IDs about scoring schema used across sims - would be great to have documentation on this and establish a consistent framework and/or set of decision rules
-- Also related to scoring, there are lots of possibilities for validity research that could be conducted to support sims' use and examine user outcomes.
+
 
 ---
 
