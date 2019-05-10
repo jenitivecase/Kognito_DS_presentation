@@ -101,12 +101,7 @@ These are enticing opportunities, but work has to be done to get us there. I thi
 ???
 So let's look at the first big question: What do we have?
 - First stage of work will be discovery to answer these questions
-- Hopefully the IT department will be able to help out with the first couple questions. 
-  - I already know about the types of data that are sent to ATI as users go through the simulation: node selections, score values, etc. 
-  - I'm guessing there are other variables to use, as well: demographics, user behavioral data, etc.
-- Is there a database architecture? A pipeline?
-- Already starting to talk with IDs about scoring schema used across sims - would be great to have documentation on this and establish a consistent framework and/or set of decision rules
-- Also related to scoring, there are lots of possibilities for validity research that could be conducted to support sims' use and examine user outcomes.
+
 
 --
 
@@ -114,11 +109,19 @@ So let's look at the first big question: What do we have?
 - What types of data are collected?
 ]
 
+???
+  - I already know about the types of data that are sent to ATI as users go through the simulation: node selections, score values, etc. 
+
 --
 
 .xlarge[
 - Where are they stored?
 ]
+
+???
+  - I'm guessing there are other variables to use, as well: demographics, user behavioral data, etc.
+- Is there a database architecture? A pipeline?
+
 
 --
 
@@ -128,6 +131,9 @@ So let's look at the first big question: What do we have?
   + What validity research could be conducted to support sims' use?
 ]
 
+???
+- Already starting to talk with IDs about scoring schema used across sims - would be great to have documentation on this and establish a consistent framework and/or set of decision rules
+- Also related to scoring, there are lots of possibilities for validity research that could be conducted to support sims' use and examine user outcomes.
 
 
 ---
@@ -188,20 +194,9 @@ class: inverse
 
 # Marketing - materials and targeting
 
+
 .xlarge[
 - Validity research to support claims
-]
-
---
-
-.xlarge[
-- Information about feature use to support claims
-]
-
---
-
-.xlarge[
-- Predictive modeling to support targeting
 ]
 
 ???
@@ -209,7 +204,22 @@ So how do those steps relate back to the three main ways I identified to use dat
 
 First, let's look at how marketing could be improved: 
   - Validity research can support new marketing claims about product quality
+--
+
+.xlarge[
+- Information about feature use to support claims
+]
+
+???
   - Information about how features are used can support claims about their usefulness
+  
+--
+
+.xlarge[
+- Predictive modeling to support targeting
+]
+
+???
   - A bit more advanced - predictive modeling based on user demographics could support targeted marketing to subgroups
 
 ---
@@ -222,12 +232,19 @@ class: inverse
 - Information about feature use to drive UX decisions
 ]
 
+???
+The second main point was about user retention and UX. 
+  - Information about how features are used can drive decisions about what to emphasize in UX
+  
 --
 
 .xlarge[
 - A/B testing to test UX features
 ]
 
+???
+  - We can also do A/B testing to try out new UX features and make data-driven choices about updates
+  
 --
 
 .xlarge[
@@ -235,9 +252,6 @@ class: inverse
 ]
 
 ???
-The second main point was about user retention and UX. 
-  - Information about how features are used can drive decisions about what to emphasize in UX
-  - We can also do A/B testing to try out new UX features and make data-driven choices about updates
   - I can also see a use case where we could design an algorithm to make smart recommendations to users about what to do next, driving user retention.
 
 ---
@@ -250,12 +264,19 @@ class: inverse
 - Data dashboards to show use and scores
 ]
 
+???
+Finally, the last big way to derive value from data science would be to productize user score data. 
+  - Analytics dashboards could help clients understand their use across sims and roll up their scores
+  
 --
 
 .xlarge[
 - Outcomes research to drive validity claims
 ]
 
+???
+  - Outcomes research could drive validity claims, which would then lead to 
+  
 --
 
 .xlarge[
@@ -263,9 +284,6 @@ class: inverse
 ]
 
 ???
-Finally, the last big way to derive value from data science would be to productize user score data. 
-  - Analytics dashboards could help clients understand their use across sims and roll up their scores
-  - Outcomes research could drive validity claims, which would then lead to 
   - Predictive modeling - if we can define what future success looks like for clients, we can develop algorithms to predict their likelihood of attaining that success. 
 
 ---
