@@ -34,12 +34,24 @@ duo(
 
 background-image: url(https://raw.githubusercontent.com/jenitivecase/Kognito_DS_presentation/master/Klogo.png)
 background-size: 200px
-background-position: top 100px left 100px
+background-position: top 100px center
 
 class: center, middle
 
+
 #Key Data-Driven Questions
+
+.large[
 Jennifer Brussow | May 2019
+]
+`r icon::fa('link')` &nbsp; [www.jenniferbrussow.com](http://www.jenniferbrussow.com)
+
+`r icon::fa('envelope')` &nbsp; [jbrussow@gmail.com](mailto:jbrussow@gmail.com)
+
+`r icon::fa('github')` &nbsp; [jenitivecase](http://github.com/jenitivecase)
+
+`r icon::fa('twitter')` &nbsp; [@jenitive_case](https://twitter.com/jenitive_case)
+
 
 ???
 
@@ -78,7 +90,7 @@ class: inverse, left, middle
 .xxlarge[
 Step 1. What do we have?
 
-Step 2. How are people using it?
+Step 2. How are people using our products?
 ]
 ---
 
@@ -101,7 +113,7 @@ Step 2. How are people using it?
 .xlarge[
 - What scoring schema are used across sims?
 
-  + What validity research could be used to support sims' use?
+  + What validity research could be conducted to support sims' use?
 ]
 
 ---
@@ -197,7 +209,7 @@ class: inverse
 #Productize user score data
 
 .xlarge[
-- Information about scoring to work toward standardization
+- Data dashboards to show use and scores
 ]
 
 --
@@ -221,6 +233,7 @@ background-image: url(./data_bkg.png)
 # Thanks!
 
 
+.small[
 Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
-
+]
 
