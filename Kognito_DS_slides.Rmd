@@ -64,11 +64,24 @@ Since there's no DS team at Kognito, I thought it'd be best to start with some k
 
 `r icon::fa('graduation-cap')` &nbsp; Ph.D. in Research, Evaluation, Measurement, and Statistics
 
-`r icon::fa('chart-line')` &nbsp; Specialist in building and deploying predictive models
+`r icon::fa('chart-line')` &nbsp; Experienced in building and deploying predictive models
+
+`r icon::fa('search')` &nbsp; Research leader: project design, execution, analysis, and reporting
 
 `r icon::fa('database')` &nbsp; Expert at querying, cleaning, and transforming datasets
 
 `r icon::fa('chart-line')` &nbsp; Focused on providing clear, honest data visualizations
+
+---
+# Past Problem Solving
+
+- Developed and deployed algorithms to predict NHA learners' probability of passing their certification exams
+
+- Designed and spearheaded data collection efforts to link ATI's flagship assessment, the Comprehensive Predictor, to NCLEX success
+
+- Published peer-reviewed articles and internal whitepapers on a variety of subjects including predictive relationships between assessments, the impact of assessment retakes, and the process of model development
+
+- Collaborated with Kognito IDs and SMEs to develop and validate scoring methodologies; created data dashboards for scoring QA to ensure accuracy
 
 ---
 background-image: url(./space_bkg.png)
