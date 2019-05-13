@@ -57,6 +57,18 @@ Jennifer Brussow | May 2019
 ???
 Since there's no DS team at Kognito, I thought it'd be best to start with some key questions/directions.
 
+---
+# A bit about me
+
+`r icon::fa('calendar-check')` &nbsp; Seven years of experience in data-focused roles
+
+`r icon::fa('graduation-cap')` &nbsp; Ph.D. in Research, Evaluation, Measurement, and Statistics
+
+`r icon::fa('chart-line')` &nbsp; Specialist in building and deploying predictive models
+
+`r icon::fa('database')` &nbsp; Expert at querying, cleaning, and transforming datasets
+
+`r icon::fa('chart-line')` &nbsp; Focused on providing clear, honest data visualizations
 
 ---
 background-image: url(./space_bkg.png)
