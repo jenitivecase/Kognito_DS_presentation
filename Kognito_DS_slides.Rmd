@@ -60,6 +60,7 @@ Since there's no DS team at Kognito, I thought it'd be best to start with some k
 ---
 # A bit about me
 
+.large[
 `r icon::fa('calendar-check')` &nbsp; Seven years of experience in data-focused roles
 
 `r icon::fa('graduation-cap')` &nbsp; Ph.D. in Research, Evaluation, Measurement, and Statistics
@@ -71,17 +72,41 @@ Since there's no DS team at Kognito, I thought it'd be best to start with some k
 `r icon::fa('database')` &nbsp; Expert at querying, cleaning, and transforming datasets
 
 `r icon::fa('chart-line')` &nbsp; Focused on providing clear, honest data visualizations
+]
 
 ---
+
 # Past Problem Solving
 
+.large[
 - Developed and deployed algorithms to predict NHA learners' probability of passing their certification exams
 
 - Designed and spearheaded data collection efforts to link ATI's flagship assessment, the Comprehensive Predictor, to NCLEX success
 
-- Published peer-reviewed articles and internal whitepapers on a variety of subjects including predictive relationships between assessments, the impact of assessment retakes, and the process of model development
+- Published peer-reviewed articles and internal whitepapers on a variety of subjects including:
+  + Predictive relationships between assessments
+  + The impact of assessment retakes, and 
+  + The process and ethics of model development
 
-- Collaborated with Kognito IDs and SMEs to develop and validate scoring methodologies; created data dashboards for scoring QA to ensure accuracy
+
+]
+
+---
+# Work with Kognito
+
+.large[
+- Since 2017
+
+- Range of sims: Civility Mentor (four conversations), HealthAssess (five VPEs), NHA Soft Skills (TBD)
+
+- Scoring system development
+
+- Scoring standardization & reporting
+
+- Score validation, including scoring QA dashboards
+
+- Data pipeline consistency: variable types and naming
+]
 
 ---
 background-image: url(./space_bkg.png)
@@ -235,6 +260,7 @@ class: inverse
 
 # Marketing - materials and targeting
 
+--
 
 .xlarge[
 - Validity research to support claims
@@ -269,6 +295,8 @@ class: inverse
 
 # User retention and UX
 
+--
+
 .xlarge[
 - Information about feature use to drive UX decisions
 ]
@@ -300,6 +328,8 @@ The second main point was about user retention and UX.
 class: inverse
 
 #Productize user score data
+
+--
 
 .xlarge[
 - Data dashboards to show use and scores
