@@ -402,30 +402,39 @@ Finally, the last big way to derive value from data science would be to producti
 
 ---
 ## First steps
-.large[
+.mlarge[
 - Work toward standardization across VPEs' variable naming, score reporting
+
 - Gain familiarity with data sources, set up library of queries for standard datasets
+
 - Find some quick wins from descriptive stats 
+
 - Identify research opportunities, propose studies
 ]
 
 ---
 
 ## Next steps
-.large[
+.mlarge[
 - Look for data-driven relationships between sims and user demographics
+
 - Use analysis results to drive UX design
+
 - Conduct efficacy research & publish results
+
 - Identify opportunities to improve reporting
+
 - Simple predictive models (user retention)
 ]
 
 ---
 
 ## More involved steps
-.large[
+.mlarge[
 - Models involving external datasets
+
 - Predictive models based on outcomes research results (student success)
+
 - Predictive models with more features (targeted marketing)
 ]
 
