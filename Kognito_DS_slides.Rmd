@@ -58,6 +58,16 @@ Jennifer Brussow | May 2019
 Since there's no DS team at Kognito, I thought it'd be best to start with some key questions/directions.
 
 ---
+class: inverse, bottom, middle
+
+background-image: url(./Data_Science_VD.png)
+
+
+.small[
+Diagram from www.drewconway.com/zia/2013/3/26/the-data-science-venn-diagram
+]
+
+---
 # A bit about me
 
 .large[
@@ -109,6 +119,7 @@ Since there's no DS team at Kognito, I thought it'd be best to start with some k
 ]
 
 ---
+
 background-image: url(./space_bkg.png)
 
 class: inverse, center, middle
