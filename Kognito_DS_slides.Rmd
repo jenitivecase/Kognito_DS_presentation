@@ -122,9 +122,9 @@ Diagram from www.drewconway.com/zia/2013/3/26/the-data-science-venn-diagram
 
 - Scoring standardization & reporting
 
-- Score validation, including scoring QA dashboards
-
 - Data pipeline consistency: variable types and naming
+
+- Score validation, including [scoring QA dashboards](http://10.200.128.53:3838/HA_VPE_QC/)
 ]
 
 ---
