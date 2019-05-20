@@ -58,6 +58,15 @@ Jennifer Brussow | May 2019
 Since there's no DS team at Kognito, I thought it'd be best to start with some key questions/directions.
 
 ---
+class: center, middle
+
+.xlarge[
+This presentation:
+
+http://jb-kognito-ds.netlify.com
+]
+
+---
 class: inverse, bottom, middle
 
 background-image: url(./Data_Science_VD.png)
