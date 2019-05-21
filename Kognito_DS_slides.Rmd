@@ -412,7 +412,7 @@ Finally, the last big way to derive value from data science would be to producti
 ---
 ## First steps
 .mlarge[
-- Work toward standardization across VPEs' variable naming, score reporting
+- Work toward standardization across variable naming, score reporting
 
 - Gain familiarity with data sources, set up library of queries for standard datasets
 
